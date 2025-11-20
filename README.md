@@ -20,19 +20,20 @@ The coolest part? It's all done using a standard webcam and some smart geometric
     cd [YOUR_PROJECT_FOLDER]
     ```
 
-2.  **Install Dependencies:** We're relying on OpenCV for video, MediaPipe for the heavy lifting, and NumPy for quick calculations.
+2.  **Install Dependencies:** We're relying on OpenCV for video, MediaPipe, and NumPy for quick calculations.
     ```bash
     pip install opencv-python mediapipe numpy
     ```
 
-3.  **Fire it up!**
+3. 
     ```bash
     python main.py
     ```
     *Hit the **`q`** key to shut down the window when you're done.*
 
 ---
-
+4. *Make sure you have lower version of python for example: Python 3.11 for better support of Dependencies*
+---
 ## What It Can Recognize
 
 Place your hand clearly in front of the camera and try these static gestures. The system uses geometric logic to classify them instantly:
